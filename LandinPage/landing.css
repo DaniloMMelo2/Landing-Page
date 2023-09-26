@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+body {
+    background-image: url(IMAGENS/3256812.jpg);
+    color: white;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+nav.HEADER {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 0.1rem;
+
+}
+
+a.Contact {
+    border: 3px solid #7109b6;
+    padding: 1em;
+    border-radius: .5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+article {
+    margin-bottom:4rem;
+    width: 100%;
+    padding-left: 2rem;
+    
+}
+
+h1 {
+    padding-bottom: 32px;
+}
+
+input {
+  text-decoration: none;
+  color: rgb(255, 251, 251);
+  font-weight: 800;
+  background-color: #7109b6;
+  border: 1px solid white;
+  padding: 4px;
+  margin-top: 36px;
+}
